@@ -1,0 +1,13 @@
+﻿@ECHO OFF
+
+
+SET UtilityFile=%~dp0..\Utility\DeploySQLChanges.bat
+SET ZipFile=%~dp0..\..\..\Builds\Current\Deployment\Database\{BUILD}.zip
+SET SqlServer={SERVER},{PORT}
+SET DatabasePrefix=SCS_AUTO
+
+START CMD /k CALL "%UtilityFile%" "%ZipFile%" "%SqlServer%" %DatabasePrefix%_master
+START CMD /k CALL "%UtilityFile%" "%ZipFile%" "%SqlServer%" %DatabasePrefix%_{TPA}
+
+PAUSE
+EXIT

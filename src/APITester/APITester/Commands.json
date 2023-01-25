@@ -1,0 +1,94 @@
+{
+  "Local": {
+    "Claim": [
+      {
+        "Name": "Read Single",
+        "URL": "http://localhost:5041/v1/fias/claims/C000000066",
+        "Parameters": {
+        },
+        "Form": {
+        },
+        "Raw": null,
+        "Action": 0
+      },
+      {
+        "Name": "Read All",
+        "URL": "http://localhost:5041/v1/fias/claims",
+        "Parameters": {
+        },
+        "Form": {
+        },
+        "Raw": null,
+        "Action": 0
+      }
+    ],
+    "Contract": [
+      {
+        "Name": "Read Single",
+        "URL": "http://localhost:5040/v1/fias/contract/test-101",
+        "Parameters": {
+        },
+        "Form": {
+        },
+        "Raw": null,
+        "Action": 0
+      },
+      {
+        "Name": "Read All",
+        "URL": "http://localhost:5041/v1/fias/contracts",
+        "Parameters": {
+        },
+        "Form": {
+        },
+        "Raw": null,
+        "Action": 0
+      }
+    ]
+  },
+  "QA-Claim-Manual": {
+    "Claim": [
+      {
+        "Name": "Read All",
+        "URL": "https://qa.purefi.co/qa-claim-manual/api/claim/v1/fias/claims",
+        "Parameters": {
+        },
+        "Form": {
+        },
+        "Raw": null,
+        "Action": 0
+      },
+      {
+        "Name": "Read Single",
+        "URL": "https://qa.purefi.co/qa-claim-manual/api/claim/v1/fias/claims/CLMTOKEN1",
+        "Parameters": {
+        },
+        "Form": {
+        },
+        "Raw": null,
+        "Action": 0
+      }
+    ],
+    "Contract": [
+      {
+        "Name": "Read All",
+        "URL": "https://qa.purefi.co/qa-claim-manual/api/contract/v1/fias/contracts",
+        "Parameters": {
+        },
+        "Form": {
+        },
+        "Raw": null,
+        "Action": 0
+      },
+      {
+        "Name": "Read Single",
+        "URL": "https://qa.purefi.co/qa-claim-manual/api/contract/v1/fias/contracts/test-101",
+        "Parameters": {
+        },
+        "Form": {
+        },
+        "Raw": null,
+        "Action": 0
+      }
+    ]
+  }
+}

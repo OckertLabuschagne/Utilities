@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LogFileViewer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="QALogsManual" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\appserverms.qa.fiadmin.com\PureFILogs\qa-manual\FI.Claim</Value>
+    </Setting>
+    <Setting Name="QALogsAutomation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\appserverms.qa.fiadmin.com\PureFILogs\qa-automation\FI.Claim</Value>
+    </Setting>
+    <Setting Name="ProductionClaim" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\fileserver.prod.fiadmin.com\purefilogs\migrate\FI.Claim</Value>
+    </Setting>
+    <Setting Name="UATLogs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\fileserver.uat.fiadmin.com\purefilogs\uat\FI.Claim</Value>
+    </Setting>
+    <Setting Name="ReleaseAutomationClaim" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\appserverms.release.fiadmin.com\PureFILogs\release-automation\FI.Claim</Value>
+    </Setting>
+    <Setting Name="ReleaseManualClaim" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\appserverms.release.fiadmin.com\PureFILogs\release-Manual\FI.Claim</Value>
+    </Setting>
+    <Setting Name="UATClaim" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\fileserver.uat.fiadmin.com\purefilogs\uat\FI.Claim</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

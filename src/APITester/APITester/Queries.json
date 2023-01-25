@@ -1,0 +1,27 @@
+{
+  "Claim": {
+    "Name": "Claim Detail",
+    "Commands": [
+      {
+        "Name": "Claim",
+        "SQL": "select c.* from [dbo].[scs_claims] c where c.sclaim_number = '{0}'",
+        "Type": "Select"
+      },
+      {
+        "Name": "Claim Details",
+        "SQL": "select d.* from [dbo].[scs_claim_details] d inner join [dbo].[scs_claims] c on c.iclaim_id = d.iclaim_id where c.sclaim_number = '{0}'",
+        "Type": "Select"
+      },
+      {
+        "Name": "Claim Jobs",
+        "SQL": "select j.* from [dbo].[scs_claim_jobs] j inner join [dbo].[scs_claims] c on c.iclaim_id = j.iclaim_id where c.sclaim_number = '{0}'",
+        "Type": "Select"
+      },
+      {
+        "Name": "Claim Payees",
+        "SQL": "select p.* from [dbo].[scs_claim_payees] p inner join [dbo].[scs_claims] c on c.iclaim_id = p.iclaim_id where c.sclaim_number = '{0}'",
+        "Type": "Select"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="APITester.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Environemt" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="API" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Action" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="URLParameter" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DownloadDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UserID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FIAS|apiuser|20181120|DFA68ED137A4A3FE3719106D270A2008</Value>
+    </Setting>
+    <Setting Name="UserSecret" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0C3300F0F2C33C868E69509DB551CA0E771CD6CC8122929EE6F52974122603AE</Value>
+    </Setting>
+    <Setting Name="SelectedTPA" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FIAS</Value>
+    </Setting>
+    <Setting Name="Users" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FIAS,FIAS|apiuser|20181120|DFA68ED137A4A3FE3719106D270A2008,0C3300F0F2C33C868E69509DB551CA0E771CD6CC8122929EE6F52974122603AE;AGW,AGW|apiuser|20181210|CEDBC8C18494D24C8F01B116B086F8D3,55EF94F6E71C03F661E28C4D91B7272D67DA76A15D3246D30A7D3956887AF78F</Value>
+    </Setting>
+    <Setting Name="OutputFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\APITestOutput\</Value>
+    </Setting>
+    <Setting Name="NumberOfTestRuns" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

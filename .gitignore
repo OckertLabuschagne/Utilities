@@ -1,0 +1,13 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+**/obj
+**/app
+**/logs/FI.Claim
+**/bin
+**/TestResults
+/test/**/coverage.cobertura.xml
+**/.vs
+**/packages
+*.user

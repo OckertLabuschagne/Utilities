@@ -1,0 +1,84 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CodeGenerator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Substitutions" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EntityFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\GIT\fi.packages.core.Master\src\fi.packages.core\Entities</Value>
+    </Setting>
+    <Setting Name="ClassNameExpression" Type="System.String" Scope="User">
+      <Value Profile="(Default)">_[a-zA-Z0-9]+</Value>
+    </Setting>
+    <Setting Name="Namespace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FI.Claim</Value>
+    </Setting>
+    <Setting Name="NamespaceSuffix" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InfrastructureServicesMappingFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UnitTestFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TestDataFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InfrastructureServicesFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InfrastructureServiceUnitTestFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InfrastructureServicesProjectFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InfrastructureServicesQueryFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TestDataNamespace" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PostSQLSnippet" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InfrastructureServicesInterfacesFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="QueryUnitTestFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ReferencedNamespaces" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GitRepositoryFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InfrastructureEntityNamespace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FI.Domain.Entities</Value>
+    </Setting>
+    <Setting Name="TypePrefixes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Int16=i,n,bt;Int32=i,n,bt,Int64=i,n,bt;Byte=i,n,bt;AnsiString=s;AnsiStringFixedLength=s;String=s;StringFixedLength=s;Date=dt;DateTime=dt;DateTime2=dt;Currency=c;Decimal=c;Boolean=bt;VarNumeric=n</Value>
+    </Setting>
+    <Setting Name="MappingNamespace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FI.Claim.Mappings</Value>
+    </Setting>
+    <Setting Name="ServicesNamespace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FI.Claim.Services</Value>
+    </Setting>
+    <Setting Name="MockDataNamespace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FI.Claim.Tests.MockData</Value>
+    </Setting>
+    <Setting Name="UnitTestNamespace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FI.Claim.Tests.UnitTests</Value>
+    </Setting>
+    <Setting Name="QueryNamespace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FI.Claim.Queries</Value>
+    </Setting>
+    <Setting Name="InfrastructureNamespace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FI.Core</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

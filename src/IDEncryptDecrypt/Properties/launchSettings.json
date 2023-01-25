@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "IDEncryptDecrypt": {
+      "commandName": "Project",
+      "commandLineArgs": "E=123 D=995JRKGN"
+    }
+  }
+}

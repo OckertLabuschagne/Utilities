@@ -1,0 +1,62 @@
+{
+  "deductibles": [
+    {
+      "deductibleId": "D5DJRKGN",
+      "status": "Approved To Pay",
+      "statusReason": "QA2 Credit Card Recon",
+      "payee": {
+        "payeeNumber": "SLR_API_DefPay",
+        "payeeName": "Seller API With Default Payee",
+        "type": "D",
+        "payeeLanguage": "EN",
+        "paymentMethod": "CHK",
+        "deliveryMethod": "E-Mail",
+        "phone": "1231231234",
+        "email": "SLR_API_DefPay@fiadmin.com",
+        "fax": "1231231234",
+        "address1": "345 W. Main St.",
+        "address2": "SUITE 300",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": 12345
+      },
+      "servicer": {
+        "servicerNumber": "SLR_API_DefPay",
+        "servicerName": "Seller API With Default Payee",
+        "type": "D",
+        "servicerLanguage": "EN",
+        "paymentMethod": "CHK",
+        "deliveryMethod": "E-Mail",
+        "phone": "1231231234",
+        "email": "test@fiadmin.com",
+        "fax": "1234567891",
+        "address1": "123 W. Main St.",
+        "address2": "SUITE 102",
+        "city": "Lombard",
+        "state": "IL",
+        "zip": 55555
+      },
+      "issues": [
+        {
+          "identifier": "A01"
+        }
+      ]
+    }
+  ],
+  "defaultPayee": {
+    "payeeNumber": "SLR_API_DefPay",
+    "payeeName": "Seller API With Default Payee",
+    "type": "D",
+    "payeeLanguage": "EN",
+    "paymentMethod": "1234",
+    "deliveryMethod": "E-Mail",
+    "phone": 1231231234,
+    "email": "qa325@fiadmin.com",
+    "fax": "1234567891",
+    "address1": "123 W. Main St.",
+    "address2": "SUITE 102",
+    "city": "Lombard",
+    "state": "IL",
+    "zip": 55555
+  }
+}

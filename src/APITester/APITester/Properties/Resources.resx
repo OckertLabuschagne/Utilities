@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FolderAdd_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FolderAdd_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedDelete_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedDelete_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DatabaseConnectio_32n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DatabaseConnectio_32n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PadLock_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PadLock_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ViewImage_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ViewImage_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilterList_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FilterList_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateProcess_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UpdateProcess_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EMail_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EMail_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RunProcess_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RunProcess_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpenDocumentFolder_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OpenDocumentFolder_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Play_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Play_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DataFind_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataFind_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UserPassword_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserPassword_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FloppyDisk_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FloppyDisk_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeleteClaim" xml:space="preserve">
+    <value>DISABLE TRIGGER t_del_claim_status ON [dbo].[scs_claims]
+GO
+DISABLE TRIGGER [t_del_claim_det_status] ON [dbo].[scs_claim_parts]
+GO
+DISABLE TRIGGER [tr_delete_claim_details_history] ON [dbo].[scs_claim_details]
+GO
+
+DECLARE @claimNumber varchar(16) = '{ClaimNumber}'
+DECLARE @ClaimId int
+	, @NoteID int
+	, @IncomingDocumentDetailId int
+	, @DetailId int
+	, @IdField int
+
+SELECT @ClaimId = [iclaim_id]
+	FROM [dbo].[scs_claims]
+	WHERE [sclaim_number] = @claimNumber
+
+select @NoteID = inote_id
+from [dbo].[scs_claim_comments]
+where iclaim_id = @ClaimId
+
+select @IncomingDocumentDetailId = [iincoming_detail_id] 
+from [dbo].[scs_document_incoming_detail]
+where imodule_key_id = @ClaimId AND idoc_module_id = 1
+
+delete from [dbo].[scs_check_entry]
+where iclaim_id = @ClaimId
+
+delete from [dbo].[scs_claim_comment_user_access_history]
+where inote_id = @NoteID
+
+delete from [dbo].[scs_claim_comment_user_access]
+where inote_id = @NoteID
+
+delete from [dbo].[scs_claim_comments]
+where iclaim_id = @ClaimId
+
+delete from [dbo].[scs_claim_credit_payments_history]
+where iclaim_id = @ClaimId
+
+delete from [dbo].[scs_claim_credit_payments]
+where iclaim_id = @ClaimId
+
+delete from [dbo].[scs_claim_jobs]
+where iclaim_id = @ClaimId
+
+delete from [dbo].[scs_claim_parts]
+where iclaim_id = @ClaimId
+
+delete from [dbo].[scs_claim_payees]
+where iclaim_id = @ClaimId
+
+DELETE FROM scs_document_incoming_detail_user_access_history
+FROM scs_document_incoming_detail_user_access_history INNER JOIN scs_document_incoming_detail AS d ON d.iincoming_detail_id = scs_document_incoming_detail_user_access_history.iincoming_detail_id
+WHERE (d.imodule_key_id = @ClaimId) AND (d.idoc_module_id = 1)
+
+DELETE FROM scs_document_incoming_detail_user_access
+FROM scs_document_incoming_detail_user_access INNER JOIN scs_document_incoming_detail AS d ON d.iincoming_detail_id = scs_document_incoming_detail_user_access.iincoming_detail_id
+WHERE (d.imodule_key_id = @ClaimId) AND (d.idoc_module_id = 1)
+
+delete from [dbo].[scs_document_incoming_detail]
+where imodule_key_id = @ClaimId AND idoc_module_id = 1
+
+delete from [dbo].[scs_claim_settlement]
+where iclaim_id = @ClaimId
+
+delete from [dbo].[scs_document_outgoing_detail] 
+where imodule_key_id = @ClaimId AND idoc_module_id = 1
+
+delete from [dbo].[scs_claim_details_history] 
+where [iclaim_id] = @ClaimId
+
+delete from [dbo].[scs_claim_inspection_history] 
+where [iclaim_id] = @ClaimId
+
+delete from [dbo].[scs_claim_inspections] 
+where [iclaim_id] = @ClaimId
+
+delete from [dbo].[scs_claim_settlement_history]
+where iclaim_id = @ClaimId
+
+delete from [dbo].[scs_claim_settlement]
+where iclaim_id = @ClaimId
+
+delete from [dbo].[scs_claim_settlement_loss_codes]
+where iclaim_id = @ClaimId
+
+delete from [dbo].[scs_claim_survey_data] 
+where [iclaim_id] = @ClaimId
+
+delete from [dbo].[scs_service_authorization] 
+where [iclaim_id] = @ClaimId
+
+EXEC p_insert_db_session_info  'apiuser', 5
+
+delete from [dbo].[scs_claim_details] 
+where [iclaim_id] = @ClaimId
+
+delete from [dbo].[scs_claims]
+where sclaim_number = @claimNumber
+
+select @IdField =max(iref_pay_number) from [dbo].[scs_check_entry]
+DBCC CHECKIDENT (scs_check_entry, RESEED, @IdField)
+
+select @IdField =max(icomment_user_access_history_id) from [dbo].[scs_claim_comment_user_access_history]
+DBCC CHECKIDENT (scs_claim_comment_user_access_history, RESEED, @IdField)
+
+select @IdField =max(icomment_user_access_id) from [dbo].[scs_claim_comment_user_access]
+DBCC CHECKIDENT (scs_claim_comment_user_access, RESEED, @IdField)
+
+select @IdField =max(inote_id) from [dbo].[scs_claim_comments]
+DBCC CHECKIDENT (scs_claim_comments, RESEED, @IdField)
+
+select @IdField =max(ipayment_history_id) from [dbo].[scs_claim_credit_payments_history]
+DBCC CHECKIDENT (scs_claim_credit_payments_history, RESEED, @IdField)
+
+select @IdField =max(ipayment_id) from [dbo].[scs_claim_credit_payments]
+DBCC CHECKIDENT (scs_claim_credit_payments, RESEED, @IdField)
+
+select @IdField =max(ijob_id) from [dbo].[scs_claim_jobs]
+DBCC CHECKIDENT (scs_claim_jobs, RESEED, @IdField)
+
+select @IdField =max(idetail_part_id) from [dbo].[scs_claim_parts]
+DBCC CHECKIDENT (scs_claim_parts, RESEED, @IdField)
+
+select @IdField =max(ipayee_id) from [dbo].[scs_claim_payees]
+DBCC CHECKIDENT (scs_claim_payees, RESEED, @IdField)
+
+select @IdField =max(idocument_incoming_detail_user_access_history_id) from [dbo].[scs_document_incoming_detail_user_access_history]
+DBCC CHECKIDENT (scs_document_incoming_detail_user_access_history, RESEED, @IdField)
+
+select @IdField =max(idocument_incoming_detail_user_access_id) from [dbo].[scs_document_incoming_detail_user_access]
+DBCC CHECKIDENT (scs_document_incoming_detail_user_access, RESEED, @IdField)
+
+select @IdField =max(iincoming_detail_id) from [dbo].[scs_document_incoming_detail]
+DBCC CHECKIDENT (scs_document_incoming_detail, RESEED, @IdField)
+
+select @IdField =max(iclaim_settlement_id) from [dbo].[scs_claim_settlement]
+DBCC CHECKIDENT (scs_claim_settlement, RESEED, @IdField)
+
+select @IdField =max(ioutgoing_detail_id) from [dbo].[scs_document_outgoing_detail]
+DBCC CHECKIDENT (scs_document_outgoing_detail, RESEED, @IdField)
+
+select @IdField =max(iclaim_history_det_id) from [dbo].[scs_claim_details_history]
+DBCC CHECKIDENT (scs_claim_details_history, RESEED, @IdField)
+
+select @IdField =max(iclaim_inspection_history_id) from [dbo].[scs_claim_inspection_history]
+DBCC CHECKIDENT (scs_claim_inspection_history, RESEED, @IdField)
+
+select @IdField =max(iclaim_inspection_id) from [dbo].[scs_claim_inspections]
+DBCC CHECKIDENT (scs_claim_inspections, RESEED, @IdField)
+
+select @IdField =max(iclaim_settlement_history_id) from [dbo].[scs_claim_settlement_history]
+DBCC CHECKIDENT (scs_claim_settlement_history, RESEED, @IdField)
+
+select @IdField =max(iclaim_settlement_id) from [dbo].[scs_claim_settlement]
+DBCC CHECKIDENT (scs_claim_settlement, RESEED, @IdField)
+
+select @IdField =max(iclaim_loss_code_id) from [dbo].[scs_claim_settlement_loss_codes]
+DBCC CHECKIDENT (scs_claim_settlement_loss_codes, RESEED, @IdField)
+
+select @IdField =max(idetail_id) from [dbo].[scs_claim_details]
+DBCC CHECKIDENT (scs_claim_details, RESEED, @IdField)
+
+select @IdField =max(iclaim_id) from [dbo].[scs_claims]
+DBCC CHECKIDENT (scs_claims, RESEED, @IdField)
+
+GO
+ENABLE TRIGGER t_del_claim_status ON [dbo].[scs_claims]
+GO
+ENABLE TRIGGER [t_del_claim_det_status] ON [dbo].[scs_claim_parts]
+GO
+ENABLE TRIGGER [tr_delete_claim_details_history] ON [dbo].[scs_claim_details]</value>
+  </data>
+  <data name="GreenAdd_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenAdd_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UserPassword_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserPassword_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditDocument32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditDocument32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomOut_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZoomOut_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddProcess_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddProcess_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="base_exclamationmark_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\base_exclamationmark_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Refresh_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Refresh_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpenFile_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OpenFile_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Down_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Down_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomIn_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ZoomIn_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileOpen_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FileOpen_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Up_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="View_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\View_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

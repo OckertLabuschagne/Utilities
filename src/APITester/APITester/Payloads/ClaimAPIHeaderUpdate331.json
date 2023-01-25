@@ -1,0 +1,92 @@
+{
+  "lossOdometer": "12001",
+  "lossDate": "2015-02-01T00:00:00",
+  "contactName": "Contact331 Update",
+  "contactEmail": "Contact331_Update@fiadmin.com",
+  "complaint": "Complaint331 Update",
+  "cause": "Cause331 Update",
+  "correction": "Correction331 Update",
+  "externalReferences": [
+    {
+      "type": "repairOrder",
+      "id": "ROVSCHUD331_Update",
+      "dateCreated": "2015-02-02T00:00:00"
+    }
+  ],
+  "customerPhone": "1234567890",
+  "issues": [
+    {
+      "identifier": "A01",
+      "primaryFailedPart": "BR014",
+      "parts": [
+        {
+          "partId": "5C2JRKGN",
+          "status": "Authorized",
+          "statusReason": "Invoice Received",
+          "componentLossCode": "BR014",
+          "partNumber": "004751BF03",
+          "partNumberDescription": "BRAKE FLUID",
+          "payee": {
+            "payeeNumber": "SLR_API_DefPay",
+            "payeeName": "Seller API With Default Payee",
+            "type": "D",
+            "payeeLanguage": "EN",
+            "paymentMethod": "CRD",
+            "deliveryMethod": "Fax",
+            "phone": 1231231234,
+            "email": "qa331@fiadmin.com",
+            "fax": "1234567891",
+            "address1": "123 W. Main St.",
+            "address2": "SUITE 102",
+            "city": "Lombard",
+            "state": "IL",
+            "zip": 55555
+          }
+        }
+      ]
+    }
+  ],
+  "deductibles": [
+    {
+      "deductibleId": "D65JRKGN",
+      "status": "Authorized",
+      "statusReason": "Invoice Received",
+      "description": "Deductible",
+      "amount": 500.0,
+      "requestedQuantity": 1,
+      "finalAmount": 500.0,
+      "agreedQuantity": 1,
+      "servicer": {
+        "type": "O",
+        "servicerName": "QA Other Payee 1",
+        "servicerLanguage": "EN",
+        "paymentMethod": "QACH",
+        "phone": 1223343445,
+        "email": "QA_Other_Payee_1@fiadmin.com",
+        "fax": "1234567891",
+        "address1": "200 W 22nd st",
+        "address2": "SUITE 102",
+        "city": "Lombard",
+        "state": "IL",
+        "zip": 45698
+      },
+      "issues": [
+        {
+          "identifier": "A01"
+        }
+      ]
+    }
+  ],
+  "defaultPayee": {
+    "type": "C",
+    "payeeLanguage": "EN",
+    "phone": 1231231234,
+    "email": "qa331@fiadmin.com",
+    "fax": "1234567891",
+    "address1": "123 W. Main St.",
+    "address2": "SUITE 102",
+    "city": "Lombard",
+    "state": "IL",
+    "zip": 55555
+  }
+}
