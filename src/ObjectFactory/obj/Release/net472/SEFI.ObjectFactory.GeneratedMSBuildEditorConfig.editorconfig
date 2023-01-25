@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = SEFI.ObjectFactory
+build_property.ProjectDir = D:\GIT\SEFI.packages.utilities\src\ObjectFactory\

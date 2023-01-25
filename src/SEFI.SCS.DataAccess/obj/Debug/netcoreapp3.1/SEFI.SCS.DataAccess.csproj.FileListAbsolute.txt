@@ -1,0 +1,9 @@
+D:\GIT\SEFI.packages.utilities\src\SEFI.SCS.DataAccess\bin\Debug\netcoreapp3.1\SEFI.SCS.DataAccess.deps.json
+D:\GIT\SEFI.packages.utilities\src\SEFI.SCS.DataAccess\bin\Debug\netcoreapp3.1\SEFI.SCS.DataAccess.dll
+D:\GIT\SEFI.packages.utilities\src\SEFI.SCS.DataAccess\bin\Debug\netcoreapp3.1\SEFI.SCS.DataAccess.pdb
+D:\GIT\SEFI.packages.utilities\src\SEFI.SCS.DataAccess\obj\Debug\netcoreapp3.1\SEFI.SCS.DataAccess.csprojAssemblyReference.cache
+D:\GIT\SEFI.packages.utilities\src\SEFI.SCS.DataAccess\obj\Debug\netcoreapp3.1\SEFI.SCS.DataAccess.AssemblyInfoInputs.cache
+D:\GIT\SEFI.packages.utilities\src\SEFI.SCS.DataAccess\obj\Debug\netcoreapp3.1\SEFI.SCS.DataAccess.AssemblyInfo.cs
+D:\GIT\SEFI.packages.utilities\src\SEFI.SCS.DataAccess\obj\Debug\netcoreapp3.1\SEFI.SCS.DataAccess.csproj.CoreCompileInputs.cache
+D:\GIT\SEFI.packages.utilities\src\SEFI.SCS.DataAccess\obj\Debug\netcoreapp3.1\SEFI.SCS.DataAccess.dll
+D:\GIT\SEFI.packages.utilities\src\SEFI.SCS.DataAccess\obj\Debug\netcoreapp3.1\SEFI.SCS.DataAccess.pdb

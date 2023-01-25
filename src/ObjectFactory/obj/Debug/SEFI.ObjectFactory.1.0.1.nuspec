@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SEFI.ObjectFactory</id>
+    <version>1.0.1</version>
+    <authors>SEFI.ObjectFactory</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="Microsoft.Extensions.Configuration" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="System.Configuration.ConfigurationManager" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="FI.Packages.Security" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="System.Configuration.ConfigurationManager" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\GIT\SEFI.packages.utilities\src\ObjectFactory\bin\Debug\net472\SEFI.ObjectFactory.dll" target="lib\net472\SEFI.ObjectFactory.dll" />
+    <file src="D:\GIT\SEFI.packages.utilities\src\ObjectFactory\bin\Debug\netcoreapp3.1\SEFI.ObjectFactory.dll" target="lib\netcoreapp3.1\SEFI.ObjectFactory.dll" />
+  </files>
+</package>

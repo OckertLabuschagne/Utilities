@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "JDUFtv9vUR13vIOu6XPQ0gPBj31pFI/fws7r1BzdHNeBw+Apd4PjdpWAv/Rk2yDbpeNSXvExiaHuZDcGvU5qrg==",
+  "success": false,
+  "projectFilePath": "G:\\Utilities\\src\\SEFI.SCS.DataAccess\\SCS.DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olabuschagne\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package SEFI.ObjectFactory. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages, nuget.org, VelocityEHS",
+      "libraryId": "SEFI.ObjectFactory",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1",
+        ".NETFramework,Version=v4.7.2"
+      ]
+    }
+  ]
+}

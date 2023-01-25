@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SEFI.SCS.DataAccess</id>
+    <version>1.0.2</version>
+    <authors>SEFI.SCS.DataAccess</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="SEFI.ObjectFactory" version="1.0.5" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="SEFI.ObjectFactory" version="1.0.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\GIT\SEFI.packages.utilities\src\SEFI.SCS.DataAccess\bin\Debug\net472\SEFI.SCS.DataAccess.dll" target="lib\net472\SEFI.SCS.DataAccess.dll" />
+    <file src="D:\GIT\SEFI.packages.utilities\src\SEFI.SCS.DataAccess\bin\Debug\netcoreapp3.1\SEFI.SCS.DataAccess.dll" target="lib\netcoreapp3.1\SEFI.SCS.DataAccess.dll" />
+  </files>
+</package>
